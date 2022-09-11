@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(240, 224, 10);
+    font-family: 'Poppins', sans-serif;
+}
+.heder-write{
+    text-align: center;
+}
+.heder-write >h1{
+    margin-bottom: 0%;
+}
+.heder-write >h5{
+    margin-top: 0%;
+}
+
+.container{
+    width: 70%;
+    height: 436px;
+    margin: auto;
+    padding-left: 20px;
+    background-color: rgba(14, 87, 221, 0.904);
+}
+.container>p{
+    width: 160px;
+    font-size: 6px;
+    margin-left: auto;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+.first-logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.first-logo .education{
+    font-size: 35px;
+    color: rgb(247, 247, 51);
+}
+.banner-write .first-logo p{
+    width: 80px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.banner-write h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0%;
+    color: white;
+}
+.banner-write button{
+    padding: 7px 20px;
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    margin: 12px 0;
+}
+.banner-write button a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 12px;
+   
+}
+.banner-write .globe{
+    font-size: 25px;
+    color: white;
+    margin-left: 5px;
+}
+.banner-write .dot{
+    display: flex;
+    align-items: center;
+    width: 210px;
+}
+.banner-write p{
+    margin-left: 10px;
+    font-size: 8px;
+    color: white; 
+}
+.banner-write .dot .circle{
+    color: yellow;
+}
+.banner-write .icon-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+    padding-right: 2px;
+}
+.banner-write .icon-link .icon{
+    font-size: 15px;
+    border-radius: 50%;
+}
+.banner-img .div .last{
+    text-decoration: none;
+    font-size:15px;
+    color: black;
+    background-color: yellow;
+    border-radius: 20px 0 0 0;
+    padding: 10px 15px;
+    margin-left: 850px;
+    margin-top: -100px; 
+}
+.banner-img{
+    position: relative;
+    text-align: center;
+}
+.banner-img .div{
+    position: absolute;
+    bottom: 15px;
+    right: -45px;
+}
+.banner-img .div2 p{
+    width: 120px;
+    font-size: 8px;
+    background-color: white;
+    border-radius: 5px 20px 5px 5px;
+    padding: 10px;
+    color: rgb(243, 223, 39);
+}
+.banner-img .div2{
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+}
